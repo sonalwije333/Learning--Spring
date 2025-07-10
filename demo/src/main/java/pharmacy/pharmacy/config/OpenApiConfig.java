@@ -28,7 +28,7 @@ public class OpenApiConfig {
 
         return new OpenAPI()
                 .info(new Info()
-                        .title("Sethma Pharmacy API Documentation")
+                        .title(" Pharmacy API Documentation")
                         .version("1.0")
                         .description("Spring Boot REST API with JWT Authentication"))
                 .addSecurityItem(new SecurityRequirement().addList(securitySchemeName))
