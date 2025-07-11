@@ -23,7 +23,6 @@ public class OpenApiConfig {
         List<Tag> tags = Arrays.asList(
                 new Tag().name("Authentication").extensions(java.util.Map.of("x-order", 18)),
                 new Tag().name("User Management").extensions(java.util.Map.of("x-order", 17))
-
         );
 
         return new OpenAPI()
